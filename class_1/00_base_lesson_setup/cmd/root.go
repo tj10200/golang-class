@@ -57,8 +57,8 @@ func NewRootCommand() *cobra.Command {
 }
 
 func setupRootFlags(cmd *cobra.Command) {
-	cmd.Flags().String("config_file", "example_toml_config", "the configuration file, no extension")
-	cmd.Flags().StringSlice("config_search_path", []string{"./config"}, "the list of paths to search for the config file")
+	cmd.PersistentFlags().String("config_file", "example_toml_config", "the configuration file, no extension")
+	cmd.PersistentFlags().StringSlice("config_search_path", []string{"./config"}, "the list of paths to search for the config file")
 
 	cmd.Flags().StringVar(&hello, "hello", "hello", "the hello part of hello world")
 	cmd.Flags().StringVar(&world, "world", "world", "the world part of hello world")
