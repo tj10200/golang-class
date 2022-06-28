@@ -57,6 +57,9 @@ func NewRootCommand() *cobra.Command {
 }
 
 func setupRootFlags(cmd *cobra.Command) {
+	// --config_file
+	// LESSON_CONFIG_FILE=adsfasdf
+
 	cmd.PersistentFlags().String("config_file", "example_toml_config", "the configuration file, no extension")
 	cmd.PersistentFlags().StringSlice("config_search_path", []string{"./config"}, "the list of paths to search for the config file")
 
