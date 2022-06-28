@@ -5,6 +5,10 @@
 *.so
 *.dylib
 
+# Jetbrains
+*.DS_Store
+*.idea
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -14,4 +18,4 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 #
-./class_1/04-template-generator
+*class_1/04-template-generator
