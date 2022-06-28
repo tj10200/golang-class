@@ -1,8 +1,5 @@
 # Basic Directory Layout for New project
-This file contains the basics for creating a hello world CLI application.
-
-The layout mostly conforms to the _unofficial_ standards project: 
-[project-layout](https://github.com/golang-standards/project-layout)
+This file contains the basics for creating a hello world CLI application
 
 ## Directory Structure
 
@@ -24,3 +21,7 @@ as the [Dockerfile](Dockerfile) and project `README.md`
   - This directory contains the application logic that would be presentable as an exported
     library.
 
+
+## More info
+More information about 
+  
