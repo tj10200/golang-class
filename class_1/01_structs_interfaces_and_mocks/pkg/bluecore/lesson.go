@@ -34,6 +34,7 @@ func NewMyStruct() MyStruct {
 		def DoStuff(a):
 			pass
 */
+// func (obj) name(params) return type {}
 func (m MyStruct) DoStuff(data string) {
 	// Can operate on private variables declared within
 	// MyStruct

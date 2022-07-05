@@ -3,6 +3,7 @@ module github.com/tj10200/golang-class/class_1/02_data_processing
 go 1.18
 
 require (
+	github.com/spf13/afero v1.8.2
 	github.com/spf13/cobra v1.5.0
 	github.com/tj10200/golang-class/class_1/00_base_lesson_setup v0.0.0-20220628030055-db78179c7689
 )
@@ -17,7 +18,6 @@ require (
 	github.com/pelletier/go-toml/v2 v2.0.2 // indirect
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
-	github.com/spf13/afero v1.8.2 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
